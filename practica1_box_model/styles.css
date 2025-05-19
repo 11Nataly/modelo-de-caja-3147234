@@ -9,8 +9,24 @@
     -funciona:
          -si los elementos tienen contenido
          -o tiene un tamaño definido
+    Margin:
+    -Espacio entre el borde y el contenido
+    -Solo aplica a los elementos dysplay 
+    - Computado de margenes
+    -Colapsado de margenes
 
 */
+
+/*
+ESTILOS DE RESETEO UNIVERSAL
+NO TENGA LOS POR DEFECTO*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
 .box{
     border-top-color: aquamarine;
     border-top-style: groove;
@@ -24,6 +40,7 @@
     border-left-color: green;
     border-left-style: dotted;
     border-left-width: 10px;
+    overflow: hidden;
     /*estilo, color y ancho es lo que minimo todo borde debe tener
     */
     /*
@@ -34,15 +51,41 @@
     */
 }
 .box1{
+    margin: 20px 40px 2px 40px;
+    margin-bottom: 50px;
     background: steelblue;
     padding: 50px 45px 3px;
     display: block;
-    height: 100px;
-
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
 }
 .box2{
+    margin: 20px 40px;
     background: salmon;
     display: block;
     height: 200px;
-    padding: 2px 4px 6px 8px;
+    width: 200px;
+    padding: 175px 4px 6px 8px;
+    overflow: hidden;
+    opacity: 0.5;
+    margin-top: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    
 }
+
+/*computo de margenes:
+espaciado entre elementos
+
+por ejemplo:
+cuando hay una caja con margin-bottom: 50px
+cuando hay una segunda caja con margin-top: 100px*/
+

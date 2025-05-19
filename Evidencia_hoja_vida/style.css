@@ -1,0 +1,83 @@
+/*Estilos globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+/*Estilos de la card*/
+/*auto: distribución equitativa al espacio disponible*/
+.card{
+    border: transparent; /*para que no se desborde */
+    display: block  ;
+    background-color: #f2f2f2;
+    width: 500px;
+    height: 605px;
+    overflow: hidden auto;
+    margin: 50px auto 10px auto;
+    border-radius: 50px;
+    
+}
+
+.img1 {
+    width: 30%;
+    height: 25%;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: cover;
+    
+
+}
+
+.img2 {
+    width: 30%;
+    height: 25%;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+.contenedor{
+    display: block;
+    margin: 50px auto 10px auto;
+    width: 70%;
+}
+
+/*colapso de imagenes
+el elemento padre debe tener borde definido */
+
+/*estilos de contenedor*/
+.titulo, parrafo{
+    display: block;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #35384A;
+    margin: 10px auto 20px ;
+}
+
+.parrafo{
+    text-align: center;
+    font-size: 20px;
+    color: #8A848C;
+    margin: 10px auto 20px ;
+    overflow: hidden;
+}
+.button{
+    display: block;
+    
+    background-color: #35384A;
+    color: #CBAC9C;
+    text-decoration: none;
+    border-radius: 50px;
+    height: 30px;
+    border: none;
+    text-align: center;
+
+}
