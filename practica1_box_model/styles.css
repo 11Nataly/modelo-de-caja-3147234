@@ -1,0 +1,48 @@
+/*
+    Box model:
+    -solo  funcion en los elemenros
+    dysplay:block;
+    -div la tiene por defecto
+    -Comportamiento:
+        -Ocupa todo el ancho de la pantalla
+        -Altura depende del contenido
+    -funciona:
+         -si los elementos tienen contenido
+         -o tiene un tamaño definido
+
+*/
+.box{
+    border-top-color: aquamarine;
+    border-top-style: groove;
+    border-top-width: 10px;
+    border-right-color: blue;
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-bottom-color: red;
+    border-bottom-style: dashed;
+    border-bottom-width: 10px;
+    border-left-color: green;
+    border-left-style: dotted;
+    border-left-width: 10px;
+    /*estilo, color y ancho es lo que minimo todo borde debe tener
+    */
+    /*
+    border-top:4px solid gray ;
+    border-right: 10px dotted red;
+    border-bottom: 4px dashed blue;
+    border-left: 10px groove green;
+    */
+}
+.box1{
+    background: steelblue;
+    padding: 50px 45px 3px;
+    display: block;
+    height: 100px;
+
+}
+.box2{
+    background: salmon;
+    display: block;
+    height: 200px;
+    padding: 2px 4px 6px 8px;
+}
